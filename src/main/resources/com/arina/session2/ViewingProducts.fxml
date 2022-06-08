@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.arina.session2.ViewingProductsController">
+   <children>
+      <Button fx:id="BackHelloViewing" layoutX="350.0" layoutY="455.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="218.0" text="Вернуться в главное окно (Выйти)" />
+      <Label layoutX="17.0" layoutY="72.0" prefHeight="22.0" prefWidth="236.0" text="Просмотр категорий (Окно пользователя)">
+         <font>
+            <Font name="Agency FB" size="12.0" />
+         </font>
+      </Label>
+      <AnchorPane fx:id="panel1" layoutX="17.0" layoutY="101.0" prefHeight="166.0" prefWidth="856.0" style="-fx-background-color: #DCDCDC;">
+         <children>
+            <ImageView fitHeight="100.0" fitWidth="178.0" layoutX="52.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+            <Button fx:id="DriedFlower" layoutX="76.0" layoutY="126.0" mnemonicParsing="false" text="Товар 1" />
+            <Label layoutX="245.0" layoutY="14.0" text="Описание товара №1" />
+         </children>
+      </AnchorPane>
+      <AnchorPane disable="true" layoutX="17.0" layoutY="278.0" prefHeight="166.0" prefWidth="856.0" style="-fx-background-color: #DCDCDC;">
+         <children>
+            <ImageView disable="true" fitHeight="100.0" fitWidth="178.0" layoutX="52.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+            <Button layoutX="81.0" layoutY="126.0" mnemonicParsing="false" text="Товар 2" />
+            <Label layoutX="248.0" layoutY="20.0" text="Описание товара №2" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

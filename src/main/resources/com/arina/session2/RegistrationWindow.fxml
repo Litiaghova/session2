@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="900.0" snapToPixel="false" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.arina.session2.RegistrationController">
+   <children>
+      <AnchorPane layoutX="-9.0" layoutY="45.0" prefHeight="417.0" prefWidth="916.0" style="-fx-background-color: #DCDCDC;">
+         <children>
+            <TextField fx:id="loginRegistration" layoutX="339.0" layoutY="174.0" prefHeight="30.0" prefWidth="232.0" promptText="Логин" style="-fx-background-color: #F5F5F5;" />
+            <TextField fx:id="passwordRegistration" layoutX="339.0" layoutY="218.0" prefHeight="30.0" prefWidth="232.0" promptText="Пароль" style="-fx-background-color: #F5F5F5;" />
+            <Button fx:id="registrationButton" layoutX="387.0" layoutY="306.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="136.0" text="Зарегистрироваться" />
+            <Label alignment="CENTER" layoutX="281.0" layoutY="135.0" prefHeight="30.0" prefWidth="348.0" text="Окно регистрации, введите желаемые данные, ответ Вы увидите в консоли" textAlignment="RIGHT">
+               <font>
+                  <Font name="Agency FB" size="10.0" />
+               </font>
+            </Label>
+            <Button fx:id="BackHelloWindow" layoutX="387.0" layoutY="338.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="136.0" text="Главное окно" />
+            <TextField fx:id="roleRegistration" layoutX="339.0" layoutY="259.0" prefHeight="30.0" prefWidth="232.0" promptText="Роль" style="-fx-background-color: #F5F5F5;" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

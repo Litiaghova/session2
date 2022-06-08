@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.arina.session2.ProductCardController">
+   <children>
+      <Button fx:id="BackHello" layoutX="350.0" layoutY="455.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="218.0" text="К выходу" />
+      <AnchorPane fx:id="panel1" layoutX="-2.0" layoutY="98.0" prefHeight="304.0" prefWidth="907.0" style="-fx-background-color: #DCDCDC;">
+         <children>
+            <ImageView fitHeight="225.0" fitWidth="398.0" layoutX="14.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true" />
+            <Button fx:id="ButtonBuy" layoutX="432.0" layoutY="207.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="168.0" text="Купить" />
+            <Text layoutX="432.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Текст описание" wrappingWidth="286.13665771484375" />
+            <Text layoutX="432.0" layoutY="192.0" smooth="false" strokeType="OUTSIDE" strokeWidth="0.0" text="\$20">
+               <font>
+                  <Font name="Arial" size="25.0" />
+               </font>
+            </Text>
+            <Text layoutX="432.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="В браузере" wrappingWidth="286.13665771484375" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="BackMenu" layoutX="349.0" layoutY="418.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="218.0" text="К меню" />
+   </children>
+</AnchorPane>

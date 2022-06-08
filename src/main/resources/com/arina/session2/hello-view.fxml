@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="500.0" maxWidth="900.0" minHeight="500.0" minWidth="900.0" prefHeight="500.0" prefWidth="900.0" style="-fx-background-color: fafafa;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.arina.session2.HelloController">
+   <children>
+      <AnchorPane layoutY="45.0" prefHeight="410.0" prefWidth="901.0" style="-fx-background-color: #DCDCDC;">
+         <children>
+             <Button layoutX="383.0" layoutY="245.0" onAction="#onHelloButtonClick" prefHeight="30.0" prefWidth="136.0" text="Помощь со входом" />
+
+
+            <Label fx:id="welcomeText" alignment="CENTER" layoutX="293.0" layoutY="287.0" prefHeight="77.0" prefWidth="314.0" textAlignment="CENTER" />
+               <TextField fx:id="login" layoutX="334.0" layoutY="85.0" prefHeight="30.0" prefWidth="232.0" promptText="Логин" style="-fx-background-color: #CFCFCF;" />
+                  <TextField fx:id="password" layoutX="335.0" layoutY="123.0" prefHeight="30.0" prefWidth="232.0" promptText="Пароль" style="-fx-background-color: #CFCFCF;" />
+            <Button fx:id="go" layoutX="383.0" layoutY="207.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="136.0" text="Войти" />
+            <Button fx:id="registration" layoutX="376.0" layoutY="45.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" text="Зарегистрироваться" />
+            <TextField fx:id="role" layoutX="334.0" layoutY="163.0" prefHeight="30.0" prefWidth="232.0" promptText="Роль" style="-fx-background-color: #CFCFCF;" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

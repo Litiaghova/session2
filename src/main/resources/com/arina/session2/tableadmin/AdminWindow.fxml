@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.arina.session2.tableadmin.AdminWindowController">
+   <children>
+      <Label layoutX="24.0" layoutY="75.0" prefHeight="22.0" prefWidth="122.0" text="Окно администратора">
+         <font>
+            <Font name="Agency FB" size="12.0" />
+         </font>
+      </Label>
+      <AnchorPane fx:id="panel1" layoutX="-4.0" layoutY="98.0" prefHeight="373.0" prefWidth="906.0" style="-fx-background-color: #DCDCDC;">
+         <children>
+            <Button fx:id="BackMenu" layoutX="24.0" layoutY="17.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="195.0" text="К меню" />
+            <Button fx:id="BackHello" layoutX="24.0" layoutY="97.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="195.0" text="К входу" />
+            <Button fx:id="backToRegistration" layoutX="24.0" layoutY="58.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="195.0" text="К регистрации" />
+            <TableView layoutX="235.0" layoutY="17.0" prefHeight="221.0" prefWidth="650.0">
+              <columns>
+                <TableColumn prefWidth="168.80001831054688" text="Логин" />
+                <TableColumn prefWidth="183.199951171875" text="Пароль" />
+                  <TableColumn prefWidth="180.0" text="Роль" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
